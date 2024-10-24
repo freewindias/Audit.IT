@@ -59,7 +59,7 @@ export default function Navbar() {
     const adminLinks = [
       { href: '/dashboard', label: 'Dashboard' },
       { href: '/users', label: 'Users' },
-      { href: '/Result', label: 'Form' },
+      { href: '/Submission', label: 'Submissions' },
     ]
 
     const links = userRole === 'admin' ? [...commonLinks, ...clientLinks, ...adminLinks] : commonLinks
